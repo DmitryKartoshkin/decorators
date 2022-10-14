@@ -1,7 +1,6 @@
 from decorator import make_way_to_log
 import os
 
-
 FILE_NAME = 'log_2.txt'
 FILE_LOG_DIR = 'logs'
 ROOT_PATH = os.getcwd()
