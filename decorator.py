@@ -10,6 +10,7 @@ def timer(func):
             f'Результат работы функции: {result}'
         with open('log_1.txt', "a", encoding='utf-8') as f:
             f.write(f'{s} \n')
+        return result
     return time_work
 
 
@@ -24,5 +25,6 @@ def make_way_to_log(path):
                 f'Результат работы функции: {result}'
             with open(path, "a", encoding='utf-8') as f:
                 f.write(f'{s} \n')
+            return result
         return time_work
     return timer

@@ -1,5 +1,4 @@
 from decorator import timer
-
 @timer
 def factorial(n):
     fact = 1
@@ -8,6 +7,6 @@ def factorial(n):
     return fact
 
 if __name__ == "__main__":
-    f_6 = factorial(6)
-    f_12 = factorial(12)
-    factorial(100)
+    f_5 = factorial(5)
+    f_ = factorial(f_5)
+    # factorial(100)
