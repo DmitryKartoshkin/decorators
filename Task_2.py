@@ -1,4 +1,4 @@
-from decorator import make_way_to_logб,
+from decorator import make_way_to_log
 import os
 
 FILE_NAME = 'log_2.txt'
